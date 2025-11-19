@@ -45,7 +45,7 @@ ninja.data = [{
           description: "",
           section: "News",},{id: "projects-openbiollm",
           title: 'OpenBioLLM',
-          description: "Multi-agent biomedical LLM stack for genomic question answering.",
+          description: "An Open-Source Multi-Agent Framework for Genomic Question Answering",
           section: "Projects",handler: () => {
               window.location.href = "/projects/openbiollm/";
             },},{
