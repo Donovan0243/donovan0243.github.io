@@ -2,33 +2,43 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Room 634, General Purpose South, The University of Queensland, BNE, QLD, AU, 4066
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: avatar.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <div>First-year PhD student at UQ</div>
+    <div>CS / NLP / IR</div>
+    <div>LLM / RAG / Healthcare</div>
+    <div>&nbsp;</div>
+    <div>&nbsp;</div>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
+selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 
 announcements:
   enabled: true # includes a list of news items
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  limit: 5  # leave blank to include all the news in the `_news` folder
 
 latest_posts:
-  enabled: true
+  enabled: false
   scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
   limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Hi there!👋 I am a first-year PhD student in the [School of Electrical Engineering and Computer Science (EECS)](https://eecs.uq.edu.au/) at [The University of Queensland (UQ)](https://www.uq.edu.au/), Brisbane, Australia.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I am a proud recipient of a full PhD scholarship from the [Queensland Digital Health Centre (QDHeC)](https://chsr.centre.uq.edu.au/research/queensland-digital-health-centre). My research is conducted as a member of the [Information Engineering Lab (ieLab)](https://ielab.io/) group, and I am supervised by [Dr. Teerapong Leelanupab](https://eecs.uq.edu.au/profile/10170/teerapong-leelanupab) and [Prof. Guido Zuccon](https://about.uq.edu.au/experts/22857).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I hold a Master of Engineering Science degree from UQ, completed in July 2025.
+
+**My research interests lie at the intersection of Large Language Models (LLMs) and Healthcare Informatics, with a particular focus on Retrieval-Augmented Generation (RAG)** . Specifically, I am focusing on the following two areas:
+
+1.Leveraging LLMs for various applications in the healthcare domain.
+
+2.The application of Agentic RAG systems for healthcare information access.
+
+Beyond research, I also serve as a tutor for DATA7901 – Data Science Capstone Project.
