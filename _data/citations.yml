@@ -1,7 +1,7 @@
 metadata:
-  last_updated: '2025-12-08'
+  last_updated: '2026-01-19'
 papers:
   Iotk_v8AAAAJ:d1gkVwhDpl0C:
-    citations: 0
+    citations: 1
     title: 'Beyond GeneGPT: A Multi-Agent Architecture with Open-Source LLMs for Enhanced Genomic Question Answering'
     year: '2025'
