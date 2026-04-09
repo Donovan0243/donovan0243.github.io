@@ -41,7 +41,7 @@ ninja.data = [{
           title: '🧑‍💻 Thrilled to begin my PhD journey!',
           description: "",
           section: "News",},{id: "news-our-paper-beyond-genegpt-a-multi-agent-architecture-with-open-source-llms-for-enhanced-genomic-question-answering-has-been-accepted-at-sigir-ap-2025-looking-forward-to-presenting-it-in-december",
-          title: '🔥 Our paper “Beyond GeneGPT: A Multi-Agent Architecture with Open-Source LLMs for Enhanced...',
+          title: '📑 Our paper “Beyond GeneGPT: A Multi-Agent Architecture with Open-Source LLMs for Enhanced...',
           description: "",
           section: "News",},{id: "news-our-paper-where-relevance-emerges-a-layer-wise-study-of-internal-attention-for-zero-shot-re-ranking-has-been-accepted-at-sigir-2026",
           title: '🔥 Our paper “Where Relevance Emerges: A Layer-Wise Study of Internal Attention for...',
