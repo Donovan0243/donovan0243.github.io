@@ -6,12 +6,12 @@ subtitle: Room 634, General Purpose South, The University of Queensland, BNE, QL
 
 profile:
   align: left
-  image: avatar.png
+  image: IMG_7779.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <div>First-year PhD student at UQ</div>
     <div>CS / NLP / IR</div>
-    <div>LLM / RAG / Healthcare</div>
+    <div>LLM / RAG / Agentic Search</div>
     <div>&nbsp;</div>
     <div>&nbsp;</div>
 
@@ -35,10 +35,6 @@ I am a proud recipient of a full PhD scholarship from the [Queensland Digital He
 
 I hold a Master of Engineering Science degree from UQ, completed in July 2025.
 
-**My research interests lie at the intersection of Large Language Models (LLMs) and Healthcare Informatics, with a particular focus on Retrieval-Augmented Generation (RAG)** . Specifically, I am focusing on the following two areas:
+I study the co-design of retrieval and reasoning in agentic systems: **how retrieval can better serve agent workflows, and how agents can more strategically exploit retrieval.**
 
-1.Leveraging LLMs for various applications in the healthcare domain.
-
-2.The application of Agentic RAG systems for healthcare information access.
-
-Beyond research, I also serve as a tutor for DATA7901 – Data Science Capstone Project.
+Beyond research, I also serve as a tutor for DATA7901 / DATA7903 – Data Science Capstone Project and INFS7203 – Data Mining.

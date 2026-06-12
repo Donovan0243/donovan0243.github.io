@@ -6,5 +6,5 @@ inline: true
 related_posts: false
 ---
 
-🎉 Excited to announce that I have been awarded a full PhD scholarship from QDHC.
+🎉 Excited to announce that I have been awarded a full PhD scholarship from UQ.
 
