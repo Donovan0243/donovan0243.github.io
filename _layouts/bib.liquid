@@ -254,6 +254,15 @@
         <a href="{{ entry.website }}" class="btn btn-sm z-depth-0" role="button">Website</a>
       {% endif %}
     </div>
+    {% if entry.keywords %}
+      <div class="pub-tags">
+        {% assign tag_list = entry.keywords | split: ',' %}
+        {% for tag in tag_list %}
+          <span class="pub-tag badge">{{ tag | strip }}</span>
+        {% endfor %}
+      </div>
+    {% endif %}
+
     {% if site.enable_publication_badges %}
       {% assign entry_has_altmetric_badge = false %}
       {% if entry.altmetric and entry.altmetric != 'false' %}

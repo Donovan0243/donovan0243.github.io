@@ -842,6 +842,23 @@ footer.sticky-bottom {
         }
       }
 
+      .pub-tags {
+        margin-top: 0.3rem;
+        margin-bottom: 0.3rem;
+
+        .pub-tag {
+          display: inline-block;
+          font-size: 0.7rem;
+          font-weight: 500;
+          padding: 0.2rem 0.55rem;
+          margin-right: 0.3rem;
+          border-radius: 0.9rem;
+          background-color: var(--global-theme-color);
+          color: #fff;
+          letter-spacing: 0.02em;
+        }
+      }
+
       .hidden {
         font-size: 0.875rem;
         max-height: 0px;
@@ -938,6 +955,15 @@ code {
   // Inline code should wrap
   white-space: normal;
   word-wrap: break-word;
+}
+
+pre code {
+  // override inline-code white-space: normal so bibtex/code blocks keep newlines
+  white-space: pre;
+  word-wrap: normal;
+  background-color: transparent;
+  padding: 0;
+  border-radius: 0;
 }
 
 // Transitioning Themes
