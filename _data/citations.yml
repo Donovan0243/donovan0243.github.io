@@ -1,11 +1,11 @@
 metadata:
-  last_updated: '2026-08-03'
+  last_updated: '2026-08-10'
 papers:
   Iotk_v8AAAAJ:IjCSPb-OGe4C:
     citations: 4
     title: 'Where Relevance Emerges: A Layer-Wise Study of Internal Attention for Zero-Shot Re-Ranking'
     year: '2026'
   Iotk_v8AAAAJ:d1gkVwhDpl0C:
-    citations: 3
+    citations: 4
     title: 'Beyond GeneGPT: a multi-agent architecture with open-source LLMS for enhanced genomic question answering'
     year: '2025'
