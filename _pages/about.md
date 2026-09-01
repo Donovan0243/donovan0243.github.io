@@ -35,6 +35,10 @@ I am a proud recipient of a full PhD scholarship from the [Queensland Digital He
 
 I hold a Master of Engineering Science degree from UQ, completed in July 2025.
 
+{% comment %}
 I study the co-design of retrieval and reasoning in agentic systems: **how retrieval can better serve agent workflows, and how agents can more strategically exploit retrieval.**
+{% endcomment %}
+
+My research focuses on optimizing retrieval for agentic search, enabling more effective and efficient information access in long-horizon agent workflows.
 
 Beyond research, I also serve as a tutor for DATA7901 / DATA7903 – Data Science Capstone Project and INFS7203 – Data Mining.
