@@ -12,3 +12,9 @@ node_modules/
 vendor
 .idea
 .venv
+
+# LaTeX CV build artefacts (final PDF lives in assets/pdf/)
+_cv/*.aux
+_cv/*.log
+_cv/*.out
+_cv/*.pdf

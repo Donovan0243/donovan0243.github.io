@@ -1,0 +1,134 @@
+% Haodong Chen - Academic CV
+% Build: ./_cv/build.sh (compiles and copies the PDF to assets/pdf/)
+\documentclass[10pt]{article}
+
+% ---------- Page & fonts (Times New Roman 10.5pt, 14pt leading, 2cm margins) ----------
+\usepackage[a4paper, top=2.0cm, bottom=2.0cm, left=2.0cm, right=2.0cm]{geometry}
+\usepackage{fontspec}
+\setmainfont{Times New Roman}
+\newfontfamily\wingfont{Wingdings}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{needspace}
+\usepackage{etoolbox}
+\usepackage[colorlinks=true, urlcolor=blue, linkcolor=blue]{hyperref}
+
+\pagestyle{empty}
+\frenchspacing
+\setlength{\emergencystretch}{3em}
+\hyphenpenalty=10000
+\exhyphenpenalty=10000
+\hyphenation{LangGraph PyTorch DeepSpeed Pyserini}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\AtBeginDocument{\fontsize{10.5}{14.04}\selectfont}
+
+% ---------- Section style: 14pt bold title + rule to the right margin ----------
+\newcommand{\ruleafter}[1]{#1\hspace{0.9em}\leaders\hbox{\rule[0.3em]{0.1pt}{0.6pt}}\hfill\kern0pt}
+\titleformat{\section}{\fontsize{14}{16}\selectfont\bfseries}{}{0pt}{\ruleafter}
+\titlespacing*{\section}{0pt}{20pt}{8pt}
+\pretocmd{\section}{\needspace{5\baselineskip}}{}{}
+
+% ---------- Entry helpers ----------
+% Bold left text, bold right text
+\newcommand{\org}[2]{\textbf{#1}\hfill\textbf{#2}\par}
+% Italic role left, bold dates right (used both in and out of lists)
+\newcommand{\role}[2]{\textit{#1}\hfill\textbf{#2}}
+% Bracketed, underlined blue link
+\newcommand{\plink}[2]{[\href{#2}{\color{blue}\underline{#1}}]}
+% Own name in author lists
+\newcommand{\me}{\textbf{Chen H.}}
+% Blank line between entries / publications
+\newcommand{\entrygap}{\par\vspace{14.04pt}}
+\newcommand{\pubgap}{\par\vspace{7.7pt}}
+
+% Diamond bullets: symbol at the margin, text indented 18pt
+\setlist[itemize]{leftmargin=18pt, labelindent=0pt, labelwidth=12pt, labelsep=6pt, align=left,
+  topsep=0pt, itemsep=0pt, parsep=0pt, partopsep=0pt, label={\wingfont u}}
+
+\begin{document}
+
+% ========== Header ==========
+\begin{center}
+  {\fontsize{15}{18}\selectfont\bfseries Mr. Haodong Chen}\\[2pt]
+  Email: haodong.chen1@student.uq.edu.au\\
+  \plink{Homepage}{https://donovan0243.github.io}
+  \plink{GitHub}{https://github.com/Donovan0243}
+  \plink{Google Scholar}{https://scholar.google.com/citations?user=Iotk_v8AAAAJ}
+\end{center}
+\vspace{-14pt}
+
+% ========== Profile ==========
+\section{Profile}
+I am a second-year PhD candidate at the Information Engineering Lab (ieLab), The University of Queensland, supervised by
+Dr.~Teerapong Leelanupab and Prof.~Guido Zuccon. My research focuses on \textbf{optimising retrieval for deep research agents}:
+both building retrieval systems that better serve agents and helping agents make better use of retrieval. I am also interested in
+LLM-based ranking and retrieval-augmented generation.
+
+% ========== Education ==========
+\section{Education background}
+\org{The University of Queensland (UQ)}{Brisbane, Australia}
+\begin{itemize}
+  \item \role{Doctor of Philosophy in Computer Science}{07/2025-Now}
+  \item Research Interests: Information Retrieval, Long-Horizon Search, Deep Research Agents
+  \item Supervisor: Dr.~Teerapong Leelanupab and Prof.~Guido Zuccon
+\end{itemize}
+\entrygap
+\org{The University of Queensland (UQ)}{Brisbane, Australia}
+\begin{itemize}
+  \item \role{Master of Engineering Science in Software Engineering}{07/2024-07/2025}
+  \item Research Interests: Retrieval-Augmented Generation, LLM Agents, Biomedical Question Answering
+  \item GPA: 6.75/7.0
+\end{itemize}
+\entrygap
+\org{Guangzhou City University of Technology}{Guangzhou, China}
+\begin{itemize}
+  \item \role{Bachelor of Engineering in Software Engineering}{09/2019-06/2023}
+  \item GPA: 3.41/4.0
+\end{itemize}
+
+% ========== Publications ==========
+\section{Publications}
+1. \me, Wang S., Yin Y., Zhuang S., Zuccon G. \& Leelanupab T. (2027). ITER: Interaction-Aware Retrieval for
+Agentic Search. \textit{WSDM 2027 Findings}.
+\plink{Paper}{https://arxiv.org/pdf/2608.27912}
+\pubgap
+2. \me, Zhuang S., Yao Z., Zuccon G. \& Leelanupab T. (2026). Where Relevance Emerges: A Layer-Wise Study of
+Internal Attention for Zero-Shot Re-Ranking. \textit{SIGIR 2026}.
+\plink{Paper}{https://dl.acm.org/doi/pdf/10.1145/3805712.3808558}
+\pubgap
+3. \me, Zuccon G. \& Leelanupab T. (2025). Beyond GeneGPT: A Multi-Agent Architecture with Open-Source LLMs
+for Enhanced Genomic Question Answering. \textit{SIGIR-AP 2025}.
+\plink{Paper}{https://dl.acm.org/doi/pdf/10.1145/3767695.3769488}
+\pubgap
+4. Wang S., \me, Yin Y., Zhuang S., Koopman B. \& Zuccon G. (2026). Search, Inspect, Fetch: Exploiting
+Structure-Aware Boolean Retrieval for Deep-Search Agents. \textit{arXiv:2608.02751}. (Under Review)
+\plink{Paper}{https://arxiv.org/pdf/2608.02751}
+\par
+
+% ========== Work Experience ==========
+\section{Work Experience}
+\org{The University of Queensland (UQ)}{Brisbane, Australia}
+\role{Tutor, School of Electrical Engineering and Computer Science}{02/2025-Now}
+\begin{itemize}
+  \item DATA7901 / DATA7903 Data Science Capstone Project
+  \item INFS7203 Data Mining
+\end{itemize}
+\entrygap
+\org{Fits (Guangdong) Technology Co., Ltd.}{Guangzhou, China}
+\role{Software Engineer}{10/2022-09/2023}\par
+
+% ========== Awards ==========
+\section{Awards}
+\textbf{CCIR Cup 2026 (China Conference on Information Retrieval):} Second Prize\hfill\textbf{08/2026}\\
+Track: Retrieval Model Optimization Based on Agent Interaction Trajectories\par
+\textbf{Dean's Commendation for Academic Excellence:} The University of Queensland\hfill\textbf{07/2025}\par
+
+% ========== Technical Skills ==========
+\section{Technical Skills}
+\begin{itemize}
+  \item \textbf{Programming skills:} Python (PyTorch, Transformers, vLLM), Java, C, JavaScript/TypeScript, SQL and \mbox{AI coding tools}.
+  \item \textbf{Language skills:} Mandarin (native), Cantonese (native) and English (fluent).
+\end{itemize}
+
+\end{document}

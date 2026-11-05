@@ -1,97 +1,83 @@
-- title: General Information
-  type: map
+# CV page content (rendered by _layouts/cv.liquid). Keep in sync with the LaTeX CV PDF.
+
+- title: Profile
+  type: list
   contents:
-    - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+    - >-
+      I am a second-year PhD candidate at the Information Engineering Lab (ieLab), The University of Queensland, supervised by
+      Dr. Teerapong Leelanupab and Prof. Guido Zuccon. My research focuses on <b>optimising retrieval for deep research agents</b>:
+      both building retrieval systems that better serve agents and helping agents make better use of retrieval.
+      I am also interested in LLM-based ranking and retrieval-augmented generation.
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: Doctor of Philosophy in Computer Science
+      institution: The University of Queensland (UQ), Brisbane, Australia
+      year: 2025 - Now
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - "Research Interests: Information Retrieval, Long-Horizon Search, Deep Research Agents"
+        - "Supervisor: Dr. Teerapong Leelanupab and Prof. Guido Zuccon"
+    - title: Master of Engineering Science in Software Engineering
+      institution: The University of Queensland (UQ), Brisbane, Australia
+      year: 2024 - 2025
       description:
-        - Description 1.
-        - Description 2.
-
-- title: Experience
-  type: time_table
-  contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+        - "Research Interests: Retrieval-Augmented Generation, LLM Agents, Biomedical Question Answering"
+        - "GPA: 6.75/7.0"
+    - title: Bachelor of Engineering in Software Engineering
+      institution: Guangzhou City University of Technology, Guangzhou, China
+      year: 2019 - 2023
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
-      description:
-        - Description 1.
-        - Description 2.
+        - "GPA: 3.41/4.0"
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - >-
+      <b>Chen H.</b>, Wang S., Yin Y., Zhuang S., Zuccon G. &amp; Leelanupab T. (2027).
+      ITER: Interaction-Aware Retrieval for Agentic Search. <i>WSDM 2027 Findings</i>.
+      [<a href="https://arxiv.org/pdf/2608.27912" target="_blank">Paper</a>]
+    - >-
+      <b>Chen H.</b>, Zhuang S., Yao Z., Zuccon G. &amp; Leelanupab T. (2026).
+      Where Relevance Emerges: A Layer-Wise Study of Internal Attention for Zero-Shot Re-Ranking. <i>SIGIR 2026</i>.
+      [<a href="https://dl.acm.org/doi/pdf/10.1145/3805712.3808558" target="_blank">Paper</a>]
+    - >-
+      <b>Chen H.</b>, Zuccon G. &amp; Leelanupab T. (2025).
+      Beyond GeneGPT: A Multi-Agent Architecture with Open-Source LLMs for Enhanced Genomic Question Answering. <i>SIGIR-AP 2025</i>.
+      [<a href="https://dl.acm.org/doi/pdf/10.1145/3767695.3769488" target="_blank">Paper</a>]
+    - >-
+      Wang S., <b>Chen H.</b>, Yin Y., Zhuang S., Koopman B. &amp; Zuccon G. (2026).
+      Search, Inspect, Fetch: Exploiting Structure-Aware Boolean Retrieval for Deep-Search Agents. <i>arXiv:2608.02751</i>. (Under Review)
+      [<a href="https://arxiv.org/pdf/2608.02751" target="_blank">Paper</a>]
+
+- title: Work Experience
+  type: time_table
+  contents:
+    - title: Tutor, School of Electrical Engineering and Computer Science
+      institution: The University of Queensland (UQ), Brisbane, Australia
+      year: 2025 - Now
+      description:
+        - DATA7901 / DATA7903 Data Science Capstone Project
+        - INFS7203 Data Mining
+    - title: Software Engineer
+      institution: Fits (Guangdong) Technology Co., Ltd., Guangzhou, China
+      year: 2022 - 2023
+
+- title: Awards
+  type: time_table
+  contents:
+    - title: "CCIR Cup 2026 (China Conference on Information Retrieval): Second Prize"
+      year: 2026
+      description:
+        - "Track: Retrieval Model Optimization Based on Agent Interaction Trajectories"
+    - title: Dean's Commendation for Academic Excellence
+      institution: The University of Queensland
+      year: 2025
+
+- title: Technical Skills
+  type: map
+  contents:
+    - name: Programming skills
+      value: Python (PyTorch, Transformers, vLLM), Java, C, JavaScript/TypeScript, SQL and AI coding tools.
+    - name: Language skills
+      value: Mandarin (native), Cantonese (native) and English (fluent).
